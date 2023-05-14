@@ -1,0 +1,28 @@
+.main {
+    background: #FFFFFF;
+    border-bottom: 1px solid #DDDDDD;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 89px;
+    padding: 16px 24px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    color: black;
+}
+
+.rightSection {
+    display: flex;
+    align-items: center;
+    width: 168px;
+    justify-content: space-between;
+    color: #00000089 !important;
+}
+
+.iconButton {
+    color: #00000089 !important;
+}

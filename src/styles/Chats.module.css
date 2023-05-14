@@ -1,0 +1,28 @@
+.chats {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background: #fff;
+    overflow: hidden;
+}
+
+.leftPart {
+    max-width: 320px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.leftPartCharts {
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.rightPart {
+    max-width: calc(100% - 320px);
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}

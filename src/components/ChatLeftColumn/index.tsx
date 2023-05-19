@@ -1,10 +1,3 @@
-import * as React from "react";
-import ChatOptions from "@/components/ChatOptions";
+import ChatLeftColumn from "@/components/ChatLeftColumn/ChatLeftColumn";
 
-export default function ChatLeftColumn() {
-    return (
-        <div>
-            <ChatOptions />
-        </div>
-    );
-};
+export default ChatLeftColumn;

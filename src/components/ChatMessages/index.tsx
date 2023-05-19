@@ -1,5 +1,3 @@
-export default function ChatMessages() {
-    return (
-        <div />
-    );
-}
+import ChatMessages from "@/components/ChatMessages/ChatMessages";
+
+export default ChatMessages;

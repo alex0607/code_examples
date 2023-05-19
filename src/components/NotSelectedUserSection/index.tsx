@@ -1,9 +1,3 @@
-import styles from '@/styles/NotSelectedUserSection.module.css';
+import NotSelectedUserSection from "@/components/NotSelectedUserSection/NotSelectedUserSection";
 
-export default function NotSelectedUserSection() {
-    return (
-        <div className={styles.main}>
-            <h3>Please choose user from the left column</h3>
-        </div>
-    );
-};
+export default NotSelectedUserSection;
